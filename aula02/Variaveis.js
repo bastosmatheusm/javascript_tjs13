@@ -16,6 +16,5 @@ if (salarioBruto > 1000.00) {
 
 }
 
-console.log("Salário Liquído: ",
-    new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(salarioBruto + (bonus * salarioBruto)) //Formatação para moeda brasileira (real)
+console.log("Salário Liquído: ", new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(salarioBruto + (bonus * salarioBruto)) //Formatação para moeda brasileira (real)
 )

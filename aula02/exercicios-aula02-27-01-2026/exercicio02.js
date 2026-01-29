@@ -8,7 +8,7 @@ const rl = require ("readline-sync");
 //Define quantidade de notas de acordo com o usuário.
 let quantidadeDeNotas = rl.questionInt("Digite a quantidade de notas do participante: ");
 
-//Cria uma matriz (array) com tamando definido pela variável quantidadeDeNotas.
+//Cria um vetor (array) com tamando definido pela variável quantidadeDeNotas.
 const notas = [];
 
 //Acumula as notas para calcular média posteriormente.
